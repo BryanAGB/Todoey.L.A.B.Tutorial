@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Item {
+class Item: Codable { //Codable replaces Encodable and Decodable
     var title: String = ""
     var done: Bool = false
 }

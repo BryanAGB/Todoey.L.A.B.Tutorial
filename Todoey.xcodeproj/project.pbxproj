@@ -14,6 +14,7 @@
 		93E6E1461FF7C5DB00DD8EE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E6E1451FF7C5DB00DD8EE8 /* Assets.xcassets */; };
 		93E6E1491FF7C5DB00DD8EE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E6E1471FF7C5DB00DD8EE8 /* LaunchScreen.storyboard */; };
 		93E6E1511FF8F2A900DD8EE8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E6E1501FF8F2A900DD8EE8 /* Item.swift */; };
+		93EDC29D1FFD088000E6C53B /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EDC29C1FFD088000E6C53B /* CategoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		93E6E1481FF7C5DB00DD8EE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93E6E14A1FF7C5DB00DD8EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93E6E1501FF8F2A900DD8EE8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		93EDC29C1FFD088000E6C53B /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				93E6E1401FF7C5DB00DD8EE8 /* TodoListViewController.swift */,
+				93EDC29C1FFD088000E6C53B /* CategoryTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			files = (
 				93E6E1411FF7C5DB00DD8EE8 /* TodoListViewController.swift in Sources */,
 				93D440881FF90CCC0057AEF5 /* DataModel.xcdatamodeld in Sources */,
+				93EDC29D1FFD088000E6C53B /* CategoryTableViewController.swift in Sources */,
 				93E6E1511FF8F2A900DD8EE8 /* Item.swift in Sources */,
 				93E6E13F1FF7C5DB00DD8EE8 /* AppDelegate.swift in Sources */,
 			);

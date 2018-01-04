@@ -2,17 +2,19 @@
 //  Item.swift
 //  Todoey
 //
-//  Created by Bryan Mansell on 31/12/2017.
-//  Copyright © 2017 Bryan Mansell. All rights reserved.
+//  Created by Bryan Mansell on 03/01/2018.
+//  Copyright © 2018 Bryan Mansell. All rights reserved.
 //
 
+import Foundation
+import RealmSwift
 
-//Replaced with CoreData
 
-//import Foundation
-//
-//class Item: Codable { //Codable replaces Encodable and Decodable
-//    var title: String = ""
-//    var done: Bool = false
-//}
+class Item : Object {
+    
+    @objc dynamic var title : String = ""
+    @objc dynamic var done : Bool = false
+    @objc dynamic var dateCreated : Date?
+    var parentCategory = LinkingObjects(fromType: Category.self, property: "items")
 
+}
